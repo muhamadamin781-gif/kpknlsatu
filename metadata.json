@@ -1,0 +1,8 @@
+{
+  "name": "Satu KPKNLSERANG - Internal Management System",
+  "description": "Integrated system for staff presence, vehicle management, and employee records for KPKNL Serang.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
