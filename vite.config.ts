@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // TAMBAHKAN BARIS DI BAWAH INI
+      base: '/kpknlsatu/', 
+      
       server: {
         port: 3000,
         host: '0.0.0.0',
